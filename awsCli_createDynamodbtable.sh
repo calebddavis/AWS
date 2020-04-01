@@ -1,3 +1,4 @@
+'
 CreateTable - API Call/aws_cli
 
 Task:create a dynamodb table for an online exotic pet store 
@@ -16,12 +17,13 @@ Sort Key: pet_id
 
 Billing mode: can be provisioned or on-demand(used when demand not known) default is provisioned 
 Billing Mode: On Demand 
-
+'
 #aws cli
 #ssh to ec2
 
 ssh hostname@ip 
 
+#create table command
 #S is string type
 #N is number type
 # for key type in cli/sdks/cloudformation templates, keys are called HASH and RANGE istead of primary and sort key 
@@ -171,3 +173,4 @@ aws dynamodb describe-table --table-name PetInventory --query 'Table.{PartitionK
 
 #deleting a table 
 aws dynamodb delete-table --table-name PetInventory
+
