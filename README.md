@@ -1,7 +1,7 @@
 AWS Menu
 
 
-# DynamoB
+# DynamoDB
 -        Create a table 
 
 
