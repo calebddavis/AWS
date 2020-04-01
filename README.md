@@ -1,2 +1,5 @@
-# AWS
-All AWS Stuff 
+AWS Menu
+DynamoB
+-Creating a table 
+
+
