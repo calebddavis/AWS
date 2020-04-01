@@ -1,5 +1,5 @@
 AWS Menu
 DynamoB
--Creating a table 
+-        Create a table 
 
 
